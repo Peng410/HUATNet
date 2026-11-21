@@ -2,8 +2,6 @@
 
 Research utilities for **Temporal--Context State Organization for Uncertainty-Aware Aero-Engine RUL Prediction**.
 
-**Authors** — Bin Liu, Zhipeng Zhang, Siying Guo, Liying Ding, Xinyang Dong, Zhujun Wang, Feng Xia, and Yue Lu.
-
 ## Research Overview
 
 HUATNet studies probabilistic remaining useful life (RUL) prediction for aero-engines under varying operating conditions and observation disturbances. The approach combines temporal degradation information with contextual operating responses, using uncertainty-guided information interaction and local evolution regularization to support lifetime estimation. The study evaluates prediction accuracy, uncertainty characterization, and noise robustness on C-MAPSS and N-CMAPSS.

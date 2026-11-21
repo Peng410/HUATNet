@@ -12,10 +12,15 @@ HUATNet studies probabilistic remaining useful life (RUL) prediction for aero-en
 
 | Path | Purpose |
 | --- | --- |
+| `huatnet_tools/framework.py` | Temporal and context branch interfaces and probabilistic RUL output |
 | `huatnet_tools/prepare.py` | C-MAPSS sensor selection, training-fitted normalization, and window preparation |
 | `huatnet_tools/evaluate.py` | RMSE, MAE, NASA Score, interval coverage and width, and uncertainty-error correlation |
 | `huatnet_tools/plot.py` | RUL trajectories, prediction parity, and uncertainty-error visualizations |
 | `configs/cmapss.json` | Window length, RUL cap, selected sensors, and operating-group definition |
+
+`HUATNetScaffold` accepts two encoders and a prediction function. It routes
+aligned sensor windows and operating settings through the branches and returns
+a RUL estimate and predictive standard deviation in cycles.
 
 ## Installation
 
